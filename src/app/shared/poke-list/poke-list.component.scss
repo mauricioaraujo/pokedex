@@ -1,13 +1,14 @@
 @import '../../../config-scss/rem-calc.scss';
 
 $padding: rem-calc(20);
-:host{
+
+:host {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: $padding 0;
 
-  .pokemon{
+  .pokemon {
     position: relative;
     display: flex;
     background: var(--white);
@@ -20,8 +21,8 @@ $padding: rem-calc(20);
 
     border-radius: rem-calc(10);
 
-    &__status{
-      h2{
+    &__status {
+      h2 {
         font-size: rem-calc(22);
         font-style: italic;
         font-weight: 700;
@@ -29,11 +30,11 @@ $padding: rem-calc(20);
         margin-bottom: rem-calc(10);
       }
 
-      ul{
+      ul {
         display: flex;
         flex-direction: column;
 
-        li{
+        li {
           background: var(--cinza);
           font-size: rem-calc(10);
 
@@ -49,7 +50,7 @@ $padding: rem-calc(20);
       }
     }
 
-    &__image{
+    &__image {
       position: absolute;
 
       display: flex;
@@ -64,8 +65,8 @@ $padding: rem-calc(20);
 
       background: url('../../../assets/bg/background-list-pokemons.svg') no-repeat;
 
-      img{
-        width: rem-calc(80);
+      img {
+        width: rem-calc(60);
       }
     }
   }
