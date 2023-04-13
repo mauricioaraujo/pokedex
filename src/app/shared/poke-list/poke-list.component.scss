@@ -19,6 +19,10 @@ $padding: rem-calc(20);
     margin-bottom: rem-calc(10);
     padding: $padding;
 
+    text-decoration: none;
+
+    color: var(--primary-color);
+
     border-radius: rem-calc(10);
 
     &__status {
